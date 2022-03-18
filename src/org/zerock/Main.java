@@ -14,7 +14,7 @@ public class Main {
         InputStream input = new URL(path).openStream();
         System.out.println(input);
 
-        OutputStream outputStream = new FileOutputStream("C:\\zzz\\test.png");
+        OutputStream outputStream = new FileOutputStream("C:\\zzz\\test.jpg");
 
         while (true){
 
